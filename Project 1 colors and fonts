@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+<!-- how to add color<body style="background-color:yellow;"> -->
+<!--aka srtyle attribute-->
+<body style="background-color:cream;">
+<!--https://www.beautycolorcode.com/8c0c8d-->
+  <header>
+    <h1 style="font-family:verdana;font-size:80px;color:blue;text-align:center;">Welcome to my page</h1>
+<!--front-size: is going to make your pixels bigger-->
+<!--font is going to be like new times roman, be be on h or p-->
+<!--; is the end,text-align:center; will give you a center text-->
+    <h2>William's profile</h2>
+  Williams workplace, in wordpress. <br>This is for vacation, I feel writer like this now. Writing non sense, I should work on poetry
+<!--br is like a space bar line break-->
+    <p style="font-family:verdana;">Welcome to my page</p>
+<p style="font-family:verdana;font-size:80px;color:red;
+text-align:center;">Welcome to my page<p>
+<p style="font-family:new times roman;font-size:20px;color:red;text-align:center;">Hello world<p>
+<p title="IT is about an html tutorial">
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser 
+ignores it.
+</p>
+<!--this will give you a paragraph and you can give a summary or comment about it-->
+<p>
+This paragraph
+contains         a lot of spaces
+in the source         code,
+but the        browser 
+ignores it.
+</p>
+<!-- comment so paragraph tag turn it into 1 line. paragraph tags also seprates it-->
+   <h3>William's food section</h3>
+   </body>
+</html>
+
+
