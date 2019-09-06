@@ -17,11 +17,12 @@
 <!--; is the end,text-align:center; will give you a center text-->
     <h2>William's profile</h2>
   Williams workplace, in wordpress. <br>This is for vacation, I feel writer like this now. Writing non sense, I should work on poetry
-<!--br is like a space bar line break-->
+<!--br is like a enter bar line break-->
     <p style="font-family:verdana;">Welcome to my page</p>
 <p style="font-family:verdana;font-size:80px;color:red;
 text-align:center;">Welcome to my page<p>
 <p style="font-family:new times roman;font-size:20px;color:red;text-align:center;">Hello world<p>
+<!-- i am red, i am blue, i am big-->
 <p title="IT is about an html tutorial">
 This paragraph
 contains a lot of lines
