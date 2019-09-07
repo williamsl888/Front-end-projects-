@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+  <head>
+    <style>
+
+</style>
+  </head>
+  <body>
+    <form action="www.submitform.html">
+      <fieldset>
+        <legend>Personal Information:</legend>
+      First Name:<br>
+      <input type="text"  maxlength="10" required>
+                 <br>
+      Last Name:<br>
+      <input type="text"><br>
+      Date of birth:
+      <br>
+      <input type="datetime-local" name="bday">
+      <br>
+      Email:<br>
+    <input type="email" name="email">
+    <br>Phone:<br>
+    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      </fieldset>
+      <br>
+      <span>Choose any one language</span>
+      <select name="Programming Languages">
+        <option value="HTML">HTML</option>
+        <option value="Javascript">Javascript</option>
+        <option value="Python">Python</option>
+        <option value="Bootstarp">Bootstarp</option>
+      </select><br>
+<textarea rows="10" cols="30">
+  
+</textarea>
+<button type="button">Click me !</button>
+<input list="Languages"><p>
+<label for="male">Male</label>
+<input type="radio" name="gender" id="male" value="male"><br>
+<label for="female">Female</label>
+<input type="radio" name="gender" id="female" value="female"><br>
+<label for="other">Other</label>
+<input type="radio" name="gender" id="other" value="other"><br><br>
+<input type="submit" value="submit"></p>
+Password:<br>
+<input type="password">
+<input type="reset"><p>
+<input type="checkbox" name="prog1" value="HTML">Check this box if you know HTML
+<input type="checkbox" name="prog2" value="Python">Check this box if you know python</p><p>
+Select color:
+<input type="color" name="favcolor">
+<input type="range" min="0" max="20">
+
+
+    </form></body></html>
+
+<!-- submit form will submit these answer to website to collect data-->
