@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+  <head>
+    <style>
+      #div1{
+        background-color:black;
+        color:white;
+        padding:20px;
+        margin-bottom:50px;
+      }
+      #div2{
+        background-color:yellow;
+        color:green;
+        padding:30px;
+        margin-bottom:50px;
+      }
+      .fontstyle{
+        color:blue;
+        font-size:28px;
+        font-family:verdana;
+      }
+</style>
+  </head>
+  <body>
+    <div id="div1">
+      <h3>HTML</h3>
+      <p>HTML is a markup language<br>I am inside a block level element</p>
+      </div>
+    <div id="div2">I am on next line</div>
+   
+
+  <span>Hello </span>
+  <span class="fontstyle">ARe we together?</span>
+  
+
+
+
+<!-- division tab, can contain anything, block level element, will act like container like elements and list
+heading automacially as bold text-->a
