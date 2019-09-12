@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+  <head>
+    <style>
+
+</style>
+  </head>
+<body>
+  <table border="1">
+    <tr>
+      <th>Book Name</th>
+      <th>In Stock ?</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+    <tr >
+      <td>HTML</td>
+      <td>YEs</td>
+      <tdrowspan="2">2</td>
+      <td>$15</td>
+    </tr>
+
+ <tr>
+      <td colspan="2">Python</td>
+      
+      <td>Not Known</td
+    </tr>
+    <tr>
+      <td>Data Science</td>
+      <td>YEs</td>
+      <td>5</td>
+      <td>$60</td>
+    </tr>
+  </table>
+
+
+
+
+
+
+
+
+<!--tr is table row, td is for column, th will give you bold-->
+<!-- <tr>
+      <td>Python</td>
+      <td>No</td>
+      <td>0</td>
+      <td>Not Known</td
+    </tr>-->
+<!--row span is combining two rows-->
