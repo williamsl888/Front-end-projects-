@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    img{
+      float:left;
+width:170px;
+height:170px;
+
+    }
+    .div1{
+      float:left;
+      width:100px;
+      height:50px;
+      margin:10px;
+      border:3px solid #73AD21;
+    }
+    .div2{
+      border:1px solid red;
+    }
+    .div3{
+      float:left;
+      width:100px;
+      height:50px;
+      margin:10px;
+      border:3px solid #73AD21;
+    }
+    .div4{
+      border:1px solid red;
+      clear:left;
+    }
+    span.a{
+      display:inline;
+      width:100px;
+      height:100px;
+      padding:5px;
+      border:1px solid blue;
+      background-color:yellow;
+    }
+    span.b{
+      display:inline-block;
+      width:100px;
+      height:100px;
+      padding:5px;
+      border: 1px solid blue;
+      background-color:yellow;
+    }
+    span.c{
+      display:block;
+      width:100px;
+      height:100px;
+      padding:5px;
+      border:1px solid blue;
+      background-color:yellow;
+    }
+    </style>
+  </head>
+  <body>
+    <p>
+      <img src="https://i.pinimg.com/originals/8c/b1/27/8cb12787f613512f4db3ccc6d78554cc.jpg"/>
+      
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. </p>
+      <p>
+        <h2>Without clear usage</h2>
+        <div class="div1">div 1</div>
+        <div class="div2">div2-This is after div1.However since div1 is floating left this text of div2 flows around div1</div>
+      </p>
+      <h2>With Clear Usage</h2>
+      <div class="div3">div3</div>
+      <div class="div4">div4- Here, clear is used so you can see this division going down the div3. </div>
+
+
+
+      <!-- paragraph in between-->
+      <h1>The display explanation demo</h1>
+
+
+
+
+      <h3>display:inline demo</h3>
+      <div> <span class="a">Word 1</span>
+      <span class="a">Word 2</span> </div>
+      <h2>display:inline-block demo</h2>
+      <div><span class="b">Word 1</span>
+      <span class="b">Word 2</span></div>
+      <h2>display:block</h2>
+      <div><span class="c">Word 1</span>
+      <span class="c">Word 2</span></div>      
+      
+      </body>
