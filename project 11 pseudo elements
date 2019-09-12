@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .center{
+        margin:auto;
+        width:60%;
+        border:3px solid black;
+        padding:10px;
+        text-align:center;
+      }
+      img{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:40%;
+      }
+      p i:first-child{
+        color:teal;
+        font-size:28px;
+      }
+      .paragraph::first-line{
+        color:teal;
+        font-size:26px;
+        background-color:yellow;
+      }
+      </style>
+  </head>
+  <body>
+    <h2>Center align the elements</h2>
+    <div class="center">I am inside div and see i am on the center of screen</div>
+
+
+
+
+
+    <!--centering the image-->
+    <h2>Center an image</h2>
+    <img src="https://imagevars.gulfnews.com/2019/02/03/SU_190204_Sri_Lanka_food_lead_resources1_16a4a1581c5_large.jpg">
+    <h2>Pseudo class demostration (first-child)</h2>
+    <p>I am the  <i>first </i>child. I am the <i>second</i> child</p>
+    <p>I am the <i>first</i> child . I am the <i>second</i>child</p>
+    <h2>Pseudo Element demostration </h2>
+
+
+
+
+    <!--space-->
+
+
+    <h3>:first-line</h3>
+    <p class="paragraph">You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
+  </body></html>
+
+
+
+  <!--block reserves whole lines for that image-->
