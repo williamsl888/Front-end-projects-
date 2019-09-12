@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+  <head>
+    <style>
+      table{
+        width:100%;
+        border-collapse:collapse;
+      }
+      td,th{
+        border:1px solid #ddd;
+        text-align:left;
+        padding:8px;
+      }
+      tr:nth-child(even){
+        background-color:teal;
+      }
+
+</style>
+  </head>
+<body>
+  <table >
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds</td>
+      <td>Maria</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Central Cubes</td>
+      <td>Unavailable</td>
+      <td>Mexico</td>
+    </tr>
+ <tr>
+      <td>Central Cubes</td>
+      <td>Unavailable</td>
+      <td>Mexico</td>
+    </tr>
+ <tr>
+      <td>Central Cubes</td>
+      <td>Unavailable</td>
+      <td>Mexico</td>
+    </tr>
+ <tr>
+      <td>Central Cubes</td>
+      <td>Unavailable</td>
+      <td>Mexico</td>
+    </tr>
+<tr>
+      <td>Central Cubes</td>
+      <td>Unavailable</td>
+      <td>Mexico</td>
+    </tr>
+  </table>
